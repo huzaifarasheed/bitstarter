@@ -15,7 +15,7 @@
           rel="stylesheet" type="text/css">
     <style type="text/css">
 
-      /* Large desktop */
+      
       @media (min-width: 980px) { 
         body {
          padding-top: 60px;
@@ -28,7 +28,7 @@
        }
       }
 
-      /* Landscape phones and down */
+      
       @media (max-width: 480px) { 
        .copy {
          padding: 2.5% 10%;
@@ -41,9 +41,7 @@
        }
       }
 
-      /* All form factors */
-
-      /* Main body and headings */
+     
       body{
         font-family: 'Open Sans', Helvetica, Arial, sans-serif;
       }
@@ -61,7 +59,7 @@
         line-height: 24px;
       }
 
-      /* Video pitch and Action */
+      
       .pitch {
         padding: 2.5% 0%;
       }
@@ -79,7 +77,7 @@
         color: white;
       }
 
-      /* Marketing Copy and Footer */
+      
       .copy {
         padding-top: 2.5%;
         padding-bottom: 2.5%;
@@ -98,7 +96,7 @@
       .footer a {
         color: #ccccff;
       }
-      /* http://support.addthis.com/customer/portal/questions/1136093-share-buttons-in-center-position */      
+      
       div.addthis_toolbox {
       width:180px;
       margin: 0 auto;
@@ -125,9 +123,7 @@
   </head>
   <body>
 
-    <!-- Mobile-friendly navbar adapted from example. -->
-    <!-- http://twitter.github.io/bootstrap/examples/starter-template.html -->
-    <div class="navbar navbar-inverse navbar-fixed-top">
+     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
           <button type="button" class="btn btn-navbar"
@@ -148,13 +144,7 @@
       </div>
     </div>
 
-    <!-- We use row-fluid inside containers to achieve a resizable layout. -->
-    <!-- blogs.endjin.com/2013/04/tips-for-implementing-responsive-designs-using-bootstrap/ -->
-    <!-- http://stackoverflow.com/a/12270322 -->
     <div class="container">
-      <!-- Font and paired font of .heading/.subheading and body from Google Fonts -->
-      <!-- www.google.com/fonts/specimen/Ubuntu -->
-      <!-- www.google.com/fonts/specimen/Ubuntu#pairings -->
       <div class="row-fluid heading">
         <div class="span12">
           <h1>Product: Development Version</h1>
@@ -162,8 +152,6 @@
       </div> 
       <div class="row-fluid subheading">
         <div class="span12">
-          <!-- Special typography from Bootstrap for lead paragraph. -->
-          <!-- http://twitter.github.io/bootstrap/base-css.html#typography -->
           <p class="lead">One sentence description.</p>
         </div>
       </div>
@@ -172,15 +160,11 @@
           <img class="img-polaroid" alt="Placeholder" src="http://placehold.it/480x300">
         </div>
 
-        <!-- We define a new 'actions' div to contain statistics, order, and share buttons.-->
         <div class="span5 actions">
           <div class="row-fluid">
           <div class="span8 offset2">
             <div class="row-fluid statistics">
               <div class="span4">
-                <!-- linediv-l and linediv-r give dividing lines that look
-                different in horizontal and vertical layouts, illustrating
-                media queries. -->
                 <div class="linediv-l">
                 <h3>1000</h3> <p>backers</p>
                 </div>
@@ -199,8 +183,6 @@
           </div>
           <div class="row-fluid">
           <div class="span10 offset1">
-            <!-- Bootstrap progress bar -->
-            <!-- http://twitter.github.io/bootstrap/components.html#progress -->
             <div class="thermometer progress active">
               <div class="bar bar-success" style="width: 60%;"></div>
               <div class="bar bar-warning" style="width: 40%;"></div>
@@ -214,28 +196,24 @@
           </div>
           <div class="row-fluid">
           <div class="span8 offset2 social">
-	    <!-- AddThis Button BEGIN -->
-	    <div class="addthis_toolbox addthis_default_style ">
-	      <a class="addthis_button_preferred_1"></a>
-	      <a class="addthis_button_preferred_2"></a>
-	      <a class="addthis_button_preferred_3"></a>
-	      <a class="addthis_button_preferred_4"></a>
-	      <a class="addthis_button_compact"></a>
-	      <a class="addthis_counter addthis_bubble_style"></a>
-	    </div>
-	    <script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
-	    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5213d2744919890b"></script>
-	    <!-- AddThis Button END -->
-	  </div>
+	        
+	        <div class="addthis_toolbox addthis_default_style ">
+		        <a class="addthis_button_preferred_1"></a>
+			      <a class="addthis_button_preferred_2"></a>
+			            <a class="addthis_button_preferred_3"></a>
+				          <a class="addthis_button_preferred_4"></a>
+					        <a class="addthis_button_compact"></a>
+						      <a class="addthis_counter addthis_bubble_style"></a>
+						          </div>
+		    <script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+		        <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5213d2744919890b"></script>
+			    
+			  </div>
           </div>
         </div>
         </div>
       </div>
 
-      <!-- Beyond this part the marketing copy begins. -->
-      <!-- https://developer.mozilla.org/en-US/docs/Web/CSS/text-align -->
-      <!-- http://twitter.github.io/bootstrap/base-css.html#images -->
-      <!-- http://placehold.it -->
       <div class="row-fluid section1">
         <div class="span5 offset1 asset">
           <img class="img-polaroid"  alt="Placeholder" src="http://placehold.it/480x300">
@@ -278,9 +256,6 @@
         </div>
       </div>
 
-      <!-- For the FAQ, we introduce a little bit of JS, using the accordion. -->
-      <!-- This brings in jquery.js and bootstrap.js as dependencies. -->
-      <!-- http://twitter.github.io/bootstrap/javascript.html#collapse -->
       <div class="row-fluid faq">
           <div class="span10 offset1">
             <h3>FAQ</h3>
@@ -316,8 +291,6 @@
 
       </div>
 
-      <!-- Not crucial, but we put this under a CC By-SA 3.0 license. -->
-      <!-- http://creativecommons.org/licenses/ -->
       <div class="row-fluid footer">
         <div class="span12">
           <p>This work is licensed under
