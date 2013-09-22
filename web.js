@@ -5,6 +5,14 @@ var htmlfile="index.html";
 var app = express.createServer(express.logger());
 app.use("/css", express.static(__dirname + '/css'));
 app.use("/img", express.static(__dirname + '/img'));
+app.use("/js", express.static(__dirname + '/js'));
+app.use("/assets", express.static(__dirname + '/assets'));
+app.use("/fonts", express.static(__dirname + '/fonts'));
+app.use("/less", express.static(__dirname + '/less'));
+app.use("/bootstrap", express.static(__dirname + '/bootstrap'));
+
+
+
 
 
 app.get('/', function(request, response) {
