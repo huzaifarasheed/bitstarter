@@ -25,4 +25,18 @@ $(document).ready(function(){
 	},function(){
 		$('.cart-all-item').stop(true,true).slideUp();
 	});
+	
+	$( ".menu-show-hide" ).toggle(function() {
+		$(this).removeClass('menu-show');
+		$(this).addClass('menu-hide');
+	 	$('.afix').animate({ "left": 0 }, 1000);
+	}, function() {
+		$('.afix').animate({ "left": -220 }, 1000);
+		$(this).removeClass('menu-hide');
+		$(this).addClass('menu-show');
+	});
+	
+	 
+ 
+ 
 });
